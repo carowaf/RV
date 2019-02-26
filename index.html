@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+<link href="estilo_landing.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>Apple</title>
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head> 
+
+<body>
+
+<div id="contenedor">
+	<div id="cabecera">
+	</div>
+	<div id="centro">
+   	  <div id="logo_centro"> 
+   	    <img src="imagenes/logocentro.png" width="60" height="59" alt=""/> 
+	  </div>
+      <div id="texto_centro"> <h1 class="font_centro"> CONSEGUÍ TU IPHONE 6 </h1> 
+        <ul class="font_subtitulo">
+          <li> 6.9 mm de espesor  
+          </li>
+          <li> f/ 2.2 de apertura  
+          </li>
+          <li> 1334x750 de resolución 
+          </li>
+        </ul>
+      </div>
+      <div id="formulario">
+      	<form action="mailto: carowerfel@hotmail.com" method="post">
+        <table width="397" height="157" border="0" class="font_pie">
+  <tbody>
+  	<tr>
+    <td colspan="2"><p align="center"><b>Completá con tus datos y se el primero en tenerlo</b></p></td>
+    </tr>
+    <tr>
+      <td width="196">Nombre</td>
+      <td width="194"> <label for="textfield"></label>
+      <input name="nombre" type="text" id="textfield" onBlur="MM_validateForm('textfield','','R');return document.MM_returnValue" /></td>
+    </tr>
+    <tr>
+      <td>Apellido</td>
+      <td><label for="textfield"></label>
+      <input type="text" name="nombre" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Mail</td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="nombre" id="textfield2" /></td>
+    </tr>
+  </tbody>
+</table>
+	<input name="boton" type="submit" class="boton" value="Enviar" />
+      	</form>
+    </div>
+    </div>
+
+  <div id="pie">
+  		<div id="tabla">
+		<table width="50%" >
+    	<tbody>
+        <tr height="50%">
+            <td width="19%">
+            	<div id="apple_online"><a href="subpaginas/politica_privacidad.html" target="_blank" class="font_pie"> Comprá en Apple online </a></div>
+                
+            </td>
+            <td width="18%">
+            	<div id="contacto_telefono"><a href="subpaginas/terminos_servicios.html" target="_blank" class="font_pie"> 1-800-MY-APPLE</a></div>
+            </td>
+            <td width="63%">
+            	<div id="contacto_mail" ><a href="subpaginas/legales.html" target="_blank" class="font_pie"> www.apple.com/iphone/ </a></div>
+            </td>
+        </tr>
+        <tr height="30%">
+        	<td width="19%">
+           	  <div id="politica_privacidad"><a href="https://www.apple.com/privacy/privacy-policy/" target="_blank" class="font_pie"><br/>Política de privacidad</a></div>
+            </td>
+            <td width="18%">
+           	  <div id="terminos_servicios"><a href="https://www.apple.com/legal/internet-services/terms/site.html" target="_blank" class="font_pie"><br/>Términos de servicio</a></div>
+            </td>
+            <td width="63%">
+            	<div id="legales" ><a href="subpaginas/legales.html" target="_blank" class="font_pie"><br/>© Carolina Werfel</a></div>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+}
+#contenedor {
+	height: 600px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	background-image: url(imagenes/fondo.png);
+}
+
+#cabecera{
+	height: 46px;
+	width: 900px;
+	background-image: url(imagenes/Cabecera.png);
+}
+
+#centro{
+	height: 472px;
+	width: 900px;
+}
+
+#pie{
+	height: 82px;
+	width: 900px;
+	background-image: url(imagenes/fondopie.png);
+}
+
+
+/*----------cabecera----------------*/
+#logo{
+	height: 100px;
+	width: 100px;
+	float: left;
+	background-color: #03DFE8;
+}
+
+#titulo{
+	height: 90px;
+	width: 800px;
+	float: right;
+	background-color:#0804CE;
+}
+
+
+/*----------centro----------------*/
+#imagen{
+	height: 450px;
+	width: 450px;
+	float: right;
+	background-color: #06B1A3;
+}
+#logo_centro{
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+#texto_centro{
+	height: 200px;
+	width: 230px;
+	float: left;
+	margin-top: 40px;
+}
+
+/*----------pie----------------*/
+#legales {
+	width: 120px;
+}
+
+#terminos_servicios {
+	width: 200px;
+	text-align: center;
+}
+
+#politica_privacidad {
+	width: 170px;
+	float: right;
+	text-align: left;
+	height: auto;
+}
+
+#apple_online {
+	width: 170px;
+	float: right;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contacto_telefono {
+	width: 170px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#contacto_mail {
+	width: 170px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+}
+.font_pie{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: small;
+}
+.font_centro{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: x-large;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.font_subtitulo{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: medium;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	margin-top: 0px;
+	float: none;
+	clear: none;
+	text-decoration: none;
+	list-style-image: none;
+}
+#tabla{
+	width: 555px;
+	height: 82px;
+	margin-left: 340px;
+	margin-top: 10px;
+}
+	
+#formulario{
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-right: 150px;
+	margin-top: 10px;
+	text-align: right;
+}
